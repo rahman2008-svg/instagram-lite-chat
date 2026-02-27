@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  text-align: center;
+  margin: 0;
+}
+
+h1 { color: #e1306c; }
+
+#feed, #chat, #photoUpload {
+  margin: 20px auto;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+#photoFeed img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#chatBox {
+  border: 1px solid #ddd;
+  height: 150px;
+  overflow-y: scroll;
+  padding: 5px;
+  background: #f9f9f9;
+  margin-bottom: 5px;
+}
