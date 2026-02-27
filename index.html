@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Instagram Lite + Chat</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Instagram Lite 💖</h1>
+
+<div id="login">
+  <input type="text" id="username" placeholder="আপনার নাম লিখুন">
+  <button onclick="login()">Login</button>
+</div>
+
+<div id="mainApp" style="display:none;">
+  <div id="profile">
+    <h3 id="profileName"></h3>
+  </div>
+
+  <div id="photoUpload">
+    <input type="file" id="photoInput">
+    <button onclick="uploadPhoto()">Upload Photo</button>
+  </div>
+
+  <div id="feed">
+    <h2>Feed</h2>
+    <div id="photoFeed"></div>
+  </div>
+
+  <div id="chat">
+    <h2>Chat 💬</h2>
+    <div id="chatBox"></div>
+    <input type="text" id="chatInput" placeholder="Message">
+    <button onclick="sendMessage()">Send</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
